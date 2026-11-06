@@ -1,0 +1,21 @@
+import * as React from "react";
+import { cn } from "@/lib/utils";
+
+export interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {}
+
+export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
+  ({ className, ...props }, ref) => (
+    <textarea
+      className={cn(
+        "flex min-h-[80px] w-full rounded-md border border-[--color-input] bg-transparent px-3 py-2 text-sm shadow-sm",
+        "placeholder:text-[--color-muted-foreground]",
+        "focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[--color-ring]",
+        "disabled:cursor-not-allowed disabled:opacity-50 resize-y",
+        className
+      )}
+      ref={ref}
+      {...props}
+    />
+  )
+);
+Textarea.displayName = "Textarea";

@@ -1,0 +1,197 @@
+{
+  "common": {
+    "loading": "កំពុងផ្ទុក…",
+    "error": "មានកំហុសកើតឡើង",
+    "submit": "បញ្ជូន",
+    "cancel": "បោះបង់",
+    "save": "រក្សាទុក",
+    "saveChanges": "រក្សាទុកការផ្លាស់ប្តូរ",
+    "back": "ត្រឡប់ក្រោយ",
+    "next": "បន្ទាប់",
+    "language": "ភាសា",
+    "english": "English",
+    "khmer": "ខ្មែរ",
+    "optional": "ជម្រើស",
+    "required": "តម្រូវ",
+    "close": "បិទ",
+    "edit": "កែសម្រួល",
+    "delete": "លុប",
+    "copy": "ចម្លង",
+    "copied": "បានចម្លង!",
+    "preview": "មើលជាមុន",
+    "export": "នាំចេញ",
+    "approve": "អនុម័ត",
+    "requestChanges": "ស្នើការផ្លាស់ប្តូរ",
+    "revoke": "លុបចោល",
+    "search": "ស្វែងរក",
+    "filter": "តម្រង",
+    "sort": "តម្រៀប",
+    "create": "បង្កើត",
+    "confirmDelete": "តើអ្នកប្រាកដទេថាចង់លុបនេះ?"
+  },
+  "auth": {
+    "signIn": "ចូលប្រើ",
+    "signOut": "ចាកចេញ",
+    "email": "អាសយដ្ឋានអ៊ីមែល",
+    "password": "លេខសម្ងាត់",
+    "forgotPassword": "ភ្លេចលេខសម្ងាត់?",
+    "resetPassword": "កំណត់លេខសម្ងាត់ឡើងវិញ",
+    "sendResetLink": "ផ្ញើតំណកំណត់ឡើងវិញ",
+    "resetLinkSent": "សូមពិនិត្យអ៊ីមែលរបស់អ្នកសម្រាប់តំណកំណត់ឡើងវិញ។",
+    "invalidCredentials": "អ៊ីមែល ឬលេខសម្ងាត់មិនត្រឹមត្រូវ។",
+    "sessionExpired": "វគ្គរបស់អ្នកបានផុតកំណត់។ សូមចូលប្រើម្តងទៀត។"
+  },
+  "dashboard": {
+    "title": "គម្រោង",
+    "newProject": "គម្រោងថ្មី",
+    "noProjects": "មិនទាន់មានគម្រោងទេ",
+    "noProjectsHint": "បង្កើតគម្រោងដំបូងរបស់អ្នកដើម្បីចាប់ផ្តើម។",
+    "searchPlaceholder": "ស្វែងរកតាមឈ្មោះអតិថិជន ឬម៉ាក…",
+    "allStatuses": "ស្ថានភាពទាំងអស់"
+  },
+  "project": {
+    "clientName": "ឈ្មោះអតិថិជន",
+    "brandName": "ឈ្មោះម៉ាក",
+    "projectType": "ប្រភេទគម្រោង",
+    "deadline": "កំណត់ពេល",
+    "internalNotes": "កំណត់ចំណាំខាងក្នុង (អតិថិជនមើលមិនឃើញ)",
+    "clientContact": "ទំនាក់ទំនងអតិថិជន",
+    "email": "អ៊ីមែល",
+    "phone": "លេខទូរស័ព្ទ",
+    "telegram": "តេឡេក្រាម",
+    "types": {
+      "website": "គេហទំព័រ",
+      "mobile_app": "កម្មវិធីទូរស័ព្ទ",
+      "brand_identity": "អត្តសញ្ញាណម៉ាក",
+      "social_media": "បណ្តាញសង្គម"
+    },
+    "statuses": {
+      "draft": "ព្រាង",
+      "sent": "បានផ្ញើ",
+      "submitted": "បានដាក់ស្នើ",
+      "changes_requested": "ស្នើការផ្លាស់ប្តូរ",
+      "approved": "បានអនុម័ត"
+    },
+    "inviteLink": "តំណអញ្ជើញអតិថិជន",
+    "generateLink": "បង្កើតតំណអញ្ជើញ",
+    "linkExpires": "ផុតកំណត់",
+    "linkActive": "សកម្ម",
+    "linkRevoked": "បានលុបចោល",
+    "copyLink": "ចម្លងតំណ",
+    "viewSubmission": "មើលការដាក់ស្នើ",
+    "activityLog": "កំណត់ហេតុសកម្មភាព"
+  },
+  "picker": {
+    "title": "ឧបករណ៍ជ្រើសរើសប្រព័ន្ធរចនា",
+    "subtitle": "តោះកំណត់ច្បាប់រចនាម៉ាករបស់អ្នក",
+    "progressLabel": "ជំហានទី {current} នៃ {total}",
+    "autosaved": "បានរក្សាទុកព្រាង",
+    "steps": {
+      "about": "អំពី",
+      "style": "រចនាប័ទ្ម",
+      "colors": "ពណ៌",
+      "fonts": "ពុម្ពអក្សរ",
+      "shape": "រូបរាង និងចន្លោះ",
+      "voice": "សំឡេង និងទឹកចិត្ត"
+    },
+    "about": {
+      "title": "អំពីគម្រោងរបស់អ្នក",
+      "brandName": "ឈ្មោះម៉ាក",
+      "projectType": "តើយើងកំពុងរចនាអ្វី?"
+    },
+    "style": {
+      "title": "ជ្រើសរើសទិស​ដៅ​រចនា",
+      "hint": "ជ្រើសរើសអ្វីដែលស្របនឹងម៉ាករបស់អ្នក។ អ្នកអាចកែប្រែបន្ថែមទៀតបាន។"
+    },
+    "colors": {
+      "title": "ជ្រើសរើសពណ៌",
+      "primary": "ពណ៌សំខាន់",
+      "secondary": "ពណ៌បន្ថែម",
+      "neutral": "ពណ៌អព្យាក្រឹត",
+      "background": "ផ្ទៃខាងក្រោយ",
+      "grayTone": "ស្រមោះ",
+      "cool": "ត្រជាក់",
+      "warm": "ក្តៅ",
+      "pure": "ស្អាត",
+      "scheme": "ផ្ទៃខាងក្រោយ",
+      "light": "ភ្លឺ",
+      "dark": "ងងឹត",
+      "customHex": "ពណ៌ hex",
+      "wcagPass": "WCAG AA ឆ្លងផ្ញើ",
+      "wcagFail": "WCAG AA បរាជ័យ — អក្សរអាចពិបាកអាន",
+      "contrastRatio": "សមាមាត្រភាពផ្ទុយ"
+    },
+    "fonts": {
+      "title": "ជ្រើសរើសពុម្ពអក្សរ",
+      "heading": "ពុម្ពអក្សរចំណងជើង",
+      "body": "ពុម្ពអក្សរខ្លឹមសារ",
+      "languages": "ភាសា",
+      "khmerFont": "ពុម្ពអក្សរខ្មែរ",
+      "typeScale": "ខ្នាតអក្សរ",
+      "scaleHint": "កំណត់ប្រើអំពីរបៀបផ្លាស់ប្តូរទំហំអក្សររវាងចំណងជើង",
+      "ratio_1_2": "1.2 — Minor Third (ប្រជិត)",
+      "ratio_1_25": "1.25 — Major Third (លំនឹង)",
+      "ratio_1_333": "1.333 — Perfect Fourth (ដ៏ល្អ)"
+    },
+    "shape": {
+      "title": "រូបរាង និងចន្លោះ",
+      "radius": "ជ្រុងបង្វែរ",
+      "sharp": "ចង្អៀត",
+      "soft": "ទន់",
+      "rounded": "មូល",
+      "pill": "គ្រាប់ថ្នាំ",
+      "density": "ដង់ស៊ីតេ",
+      "compact": "ប្រជិត",
+      "comfortable": "ស្រួល",
+      "airy": "ទូលាយ",
+      "shadow": "ស្រមោល",
+      "none": "គ្មាន",
+      "subtle": "ស្រដៀង",
+      "medium": "មធ្យម",
+      "strong": "ខ្លាំង",
+      "buttonStyle": "រចនាប័ទ្មប៊ូតុង",
+      "filled": "ពេញ",
+      "outline": "គែម",
+      "softStyle": "ទន់"
+    },
+    "voice": {
+      "title": "សំឡេង និងទឹកចិត្ត",
+      "tone": "តើម៉ាកគួរនិយាយយ៉ាងម៉េច?",
+      "formal": "ផ្លូវការ",
+      "friendly": "ស្និទ្ធស្នាល",
+      "playful": "រីករាយ",
+      "notes": "កំណត់ចំណាំបន្ថែម",
+      "notesPlaceholder": "មានអ្វីផ្សេងទៀតដែលយើងគួរដឹងអំពីបុគ្គលិកលក្ខណៈម៉ាករបស់អ្នក…",
+      "files": "ឯកសារយោង (ជម្រើស)",
+      "filesHint": "បង្ហោះឡូហ្គោ មគ្គុទ្ទេសក៍ម៉ាក ឬរូបភាពយោងរបស់អ្នក។ អតិបរមា 10 MB ម្តង។"
+    },
+    "review": {
+      "title": "ពិនិត្យការជ្រើសរើស",
+      "submitButton": "ដាក់ស្នើទៅស្ទូឌីយ៉ូ",
+      "confirmSubmit": "រួចរាល់ហើយដើម្បីផ្ញើជម្រើសរបស់អ្នកទៅស្ទូឌីយ៉ូ?"
+    },
+    "submitted": {
+      "title": "អរគុណ!",
+      "message": "ជម្រើសរចនារបស់អ្នកត្រូវបានផ្ញើទៅស្ទូឌីយ៉ូ។ យើងនឹងពិនិត្យ និងទំនាក់ទំនងអ្នកឆាប់ៗ។",
+      "viewSubmission": "មើលការដាក់ស្នើរបស់អ្នក"
+    }
+  },
+  "export": {
+    "title": "នាំចេញ tokens",
+    "css": "CSS variables",
+    "tailwind": "Tailwind v4 @theme",
+    "json": "JSON (W3C tokens)",
+    "figma": "Figma Tokens",
+    "pdf": "ព្រាង PDF"
+  },
+  "presets": {
+    "title": "គ្រប់គ្រង Preset",
+    "styleDirections": "ទិសដៅរចនា",
+    "colorPalettes": "ផ្ទាំងពណ៌",
+    "fonts": "ពុម្ពអក្សរ",
+    "khmerFonts": "ពុម្ពអក្សរខ្មែរ",
+    "newPreset": "Preset ថ្មី",
+    "editPreset": "កែ Preset",
+    "reorder": "អូសដើម្បីរៀបលំដាប់ឡើងវិញ"
+  }
+}

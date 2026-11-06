@@ -1,0 +1,197 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "error": "An error occurred",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saveChanges": "Save Changes",
+    "back": "Back",
+    "next": "Next",
+    "language": "Language",
+    "english": "English",
+    "khmer": "ខ្មែរ",
+    "optional": "Optional",
+    "required": "Required",
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "preview": "Preview",
+    "export": "Export",
+    "approve": "Approve",
+    "requestChanges": "Request Changes",
+    "revoke": "Revoke",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "create": "Create",
+    "confirmDelete": "Are you sure you want to delete this?"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "email": "Email address",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset Password",
+    "sendResetLink": "Send reset link",
+    "resetLinkSent": "Check your email for a reset link.",
+    "invalidCredentials": "Invalid email or password.",
+    "sessionExpired": "Your session has expired. Please sign in again."
+  },
+  "dashboard": {
+    "title": "Projects",
+    "newProject": "New Project",
+    "noProjects": "No projects yet",
+    "noProjectsHint": "Create your first project to get started.",
+    "searchPlaceholder": "Search by client or brand name…",
+    "allStatuses": "All statuses"
+  },
+  "project": {
+    "clientName": "Client name",
+    "brandName": "Brand name",
+    "projectType": "Project type",
+    "deadline": "Deadline",
+    "internalNotes": "Internal notes (not visible to client)",
+    "clientContact": "Client contact",
+    "email": "Email",
+    "phone": "Phone",
+    "telegram": "Telegram",
+    "types": {
+      "website": "Website",
+      "mobile_app": "Mobile app",
+      "brand_identity": "Brand identity",
+      "social_media": "Social media"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "sent": "Sent",
+      "submitted": "Submitted",
+      "changes_requested": "Changes Requested",
+      "approved": "Approved"
+    },
+    "inviteLink": "Client invite link",
+    "generateLink": "Generate invite link",
+    "linkExpires": "Expires",
+    "linkActive": "Active",
+    "linkRevoked": "Revoked",
+    "copyLink": "Copy link",
+    "viewSubmission": "View submission",
+    "activityLog": "Activity log"
+  },
+  "picker": {
+    "title": "Design System Picker",
+    "subtitle": "Let's define your brand's design rules",
+    "progressLabel": "Step {current} of {total}",
+    "autosaved": "Draft saved",
+    "steps": {
+      "about": "About",
+      "style": "Style",
+      "colors": "Colors",
+      "fonts": "Fonts",
+      "shape": "Shape & Spacing",
+      "voice": "Voice & Tone"
+    },
+    "about": {
+      "title": "About your project",
+      "brandName": "Brand name",
+      "projectType": "What are we designing?"
+    },
+    "style": {
+      "title": "Choose a style direction",
+      "hint": "Pick the vibe that feels closest. You can tweak everything next."
+    },
+    "colors": {
+      "title": "Choose your colors",
+      "primary": "Main color",
+      "secondary": "Second color",
+      "neutral": "Neutral / gray",
+      "background": "Background",
+      "grayTone": "Gray tone",
+      "cool": "Cool",
+      "warm": "Warm",
+      "pure": "Pure",
+      "scheme": "Background",
+      "light": "Light",
+      "dark": "Dark",
+      "customHex": "Custom hex",
+      "wcagPass": "WCAG AA Pass",
+      "wcagFail": "WCAG AA Fail — text may be hard to read",
+      "contrastRatio": "Contrast ratio"
+    },
+    "fonts": {
+      "title": "Choose your fonts",
+      "heading": "Heading font",
+      "body": "Body font",
+      "languages": "Languages",
+      "khmerFont": "Khmer font",
+      "typeScale": "Type scale",
+      "scaleHint": "Controls how font sizes step up between headings.",
+      "ratio_1_2": "1.2 — Minor Third (compact)",
+      "ratio_1_25": "1.25 — Major Third (balanced)",
+      "ratio_1_333": "1.333 — Perfect Fourth (dramatic)"
+    },
+    "shape": {
+      "title": "Shape & spacing",
+      "radius": "Corner radius",
+      "sharp": "Sharp",
+      "soft": "Soft",
+      "rounded": "Rounded",
+      "pill": "Pill",
+      "density": "Density",
+      "compact": "Compact",
+      "comfortable": "Comfortable",
+      "airy": "Airy",
+      "shadow": "Shadows",
+      "none": "None",
+      "subtle": "Subtle",
+      "medium": "Medium",
+      "strong": "Strong",
+      "buttonStyle": "Button style",
+      "filled": "Filled",
+      "outline": "Outline",
+      "softStyle": "Soft"
+    },
+    "voice": {
+      "title": "Voice & tone",
+      "tone": "How should the brand speak?",
+      "formal": "Formal",
+      "friendly": "Friendly",
+      "playful": "Playful",
+      "notes": "Additional notes",
+      "notesPlaceholder": "Anything else we should know about your brand's personality…",
+      "files": "Reference files (optional)",
+      "filesHint": "Upload your logo, brand guide, or reference images. Max 10 MB each."
+    },
+    "review": {
+      "title": "Review your choices",
+      "submitButton": "Submit to studio",
+      "confirmSubmit": "Ready to send your choices to the studio?"
+    },
+    "submitted": {
+      "title": "Thank you!",
+      "message": "Your design choices have been sent to the studio. We'll review them and be in touch.",
+      "viewSubmission": "View your submission"
+    }
+  },
+  "export": {
+    "title": "Export tokens",
+    "css": "CSS variables",
+    "tailwind": "Tailwind v4 @theme",
+    "json": "JSON (W3C tokens)",
+    "figma": "Figma Tokens",
+    "pdf": "PDF brief"
+  },
+  "presets": {
+    "title": "Preset manager",
+    "styleDirections": "Style directions",
+    "colorPalettes": "Color palettes",
+    "fonts": "Fonts",
+    "khmerFonts": "Khmer fonts",
+    "newPreset": "New preset",
+    "editPreset": "Edit preset",
+    "reorder": "Drag to reorder"
+  }
+}
